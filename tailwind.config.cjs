@@ -6,14 +6,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'neon-cyan': '#00D9FF',
-        'neon-purple': '#A855F7',
-        'dark-bg': '#050816',
+        'neon-cyan': '#6366F1', // Primary Indigo
+        'neon-purple': '#8B5CF6', // Secondary Purple
+        'dark-bg': '#0F172A', // Background Dark Navy
         'dark-secondary': '#0b1224',
         'dark-tertiary': '#121a34',
-        'light-text': '#f3f8ff',
+        'light-text': '#F8FAFC', // Text White
+        'accent-cyan': '#22D3EE', // Button hover cyan
       },
       fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
         mono: ['JetBrains Mono', 'Courier New', 'monospace'],
         'space-mono': ['Space Mono', 'monospace'],
       },
@@ -26,24 +28,24 @@ module.exports = {
       },
       keyframes: {
         'pulse-neon': {
-          '0%, 100%': { opacity: '1', boxShadow: '0 0 20px rgba(0, 217, 255, 0.5)' },
-          '50%': { opacity: '0.8', boxShadow: '0 0 30px rgba(0, 217, 255, 0.8)' },
+          '0%, 100%': { opacity: '1', boxShadow: '0 0 20px rgba(99,102,241,0.5)' },
+          '50%': { opacity: '0.8', boxShadow: '0 0 30px rgba(99,102,241,0.8)' },
         },
         'float': {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-10px)' },
         },
         'glow': {
-          '0%, 100%': { textShadow: '0 0 10px rgba(0, 217, 255, 0.5)' },
-          '50%': { textShadow: '0 0 20px rgba(0, 217, 255, 1)' },
+          '0%, 100%': { textShadow: '0 0 10px rgba(99,102,241,0.5)' },
+          '50%': { textShadow: '0 0 20px rgba(99,102,241,1)' },
         },
         'fade-in': {
           '0%': { opacity: '0', transform: 'translateY(15px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         'button-glow': {
-          '0%, 100%': { boxShadow: '0 0 20px rgba(0, 217, 255, 0.4), 0 0 35px rgba(168, 85, 247, 0.2)' },
-          '50%': { boxShadow: '0 0 30px rgba(0, 217, 255, 0.8), 0 0 50px rgba(168, 85, 247, 0.35)' },
+          '0%, 100%': { boxShadow: '0 0 20px rgba(99,102,241,0.4), 0 0 35px rgba(139,92,246,0.2)' },
+          '50%': { boxShadow: '0 0 30px rgba(99,102,241,0.8), 0 0 50px rgba(139,92,246,0.35)' },
         },
       },
       backdropBlur: {

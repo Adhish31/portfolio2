@@ -13,7 +13,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="border-t border-neon-cyan/10 py-12 px-6 relative overflow-hidden bg-[#050816]">
+    <footer className="border-t border-neon-cyan/10 py-12 px-6 relative overflow-hidden bg-[#0F172A]">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-dark-secondary/30 to-transparent pointer-events-none" />
 
